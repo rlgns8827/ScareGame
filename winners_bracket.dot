@@ -1,0 +1,59 @@
+digraph TournamentTree {
+    node0 [label="Sulley, (Power: 120)"]
+    node1 [label="Sulley, (Power: 120)"]
+    node2 [label="Sulley, (Power: 120)"]
+    node3 [label="Sulley, (Power: 120)"]
+    node4 [label="Sulley, (Power: 120)"]
+    node3 -> node4;
+    node5 [label="Mike, (Power: 115)"]
+    node3 -> node5;
+    node2 -> node3;
+    node6 [label="Randall, (Power: 100)"]
+    node7 [label="Randall, (Power: 100)"]
+    node6 -> node7;
+    node8 [label="Art, (Power: 80)"]
+    node6 -> node8;
+    node2 -> node6;
+    node1 -> node2;
+    node9 [label="Johnny, (Power: 110)"]
+    node10 [label="TerryAndTerri, (Power: 85)"]
+    node11 [label="TerryAndTerri, (Power: 85)"]
+    node10 -> node11;
+    node12 [label="Squishy, (Power: 75)"]
+    node10 -> node12;
+    node9 -> node10;
+    node13 [label="Johnny, (Power: 110)"]
+    node14 [label="Johnny, (Power: 110)"]
+    node13 -> node14;
+    node15 [label="Chet, (Power: 94)"]
+    node13 -> node15;
+    node9 -> node13;
+    node1 -> node9;
+    node0 -> node1;
+    node16 [label="Mike, (Power: 115)"]
+    node17 [label="Mike, (Power: 115)"]
+    node18 [label="Mike, (Power: 115)"]
+    node19 [label="Mike, (Power: 115)"]
+    node18 -> node19;
+    node20 [label="Art, (Power: 80)"]
+    node18 -> node20;
+    node17 -> node18;
+    node21 [label="Chet, (Power: 94)"]
+    node22 [label="Squishy, (Power: 75)"]
+    node21 -> node22;
+    node23 [label="Chet, (Power: 94)"]
+    node21 -> node23;
+    node17 -> node21;
+    node16 -> node17;
+    node24 [label="Johnny, (Power: 110)"]
+    node25 [label="Randall, (Power: 100)"]
+    node26 [label="Randall, (Power: 100)"]
+    node25 -> node26;
+    node27 [label="TerryAndTerri, (Power: 85)"]
+    node25 -> node27;
+    node24 -> node25;
+    node28 [label="Johnny, (Power: 110)"]
+    node24 -> node28;
+    node16 -> node24;
+    node0 -> node16;
+}
